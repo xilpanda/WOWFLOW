@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe.only("API", () => {
+describe("API", () => {
   it("Should return User List successfully", () => {
     cy.request("https://reqres.in/api/users").then((response) => {
       expect(response.status).to.eq(200);
