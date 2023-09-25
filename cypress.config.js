@@ -7,5 +7,6 @@ module.exports = defineConfig({
     },
 
     chromeWebSecurity: false,
+    baseUrl: "https://automationexercise.com",
   },
 });
